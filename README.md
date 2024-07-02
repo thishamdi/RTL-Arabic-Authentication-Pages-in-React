@@ -11,5 +11,3 @@ Feel free to clone and explore the repository!
 ![Image Alt Text](/src/assets/3.png)
 
 ![Image Alt Text](/src/assets/4.png)
-
-![Image Alt Text](/src/assets/5.png)
