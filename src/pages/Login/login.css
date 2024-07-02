@@ -1,0 +1,149 @@
+.loginwrapper {
+    width: 100%;
+    min-height: 100vh;
+    margin: auto;
+    font-family: var(--primary-font);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url('https://inkyfada.com/wp-content/uploads/2023/04/Cover-Article-UE-Tunisie-politique-migration-DSK.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.loginwrapper .loginform {
+    width: 35%;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 16px;
+    padding: 30px;
+}
+
+.loginwrapper .loginform form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.loginwrapper header {
+    color: #fff;
+    font-size: 1.9rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+
+.loginwrapper span {
+    color: #fff;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.loginwrapper .input-field {
+    display: flex;
+    flex-direction: column;
+}
+
+.loginwrapper .submit-field {
+    display: flex;
+}
+
+.loginwrapper .input-field .input {
+    font-family: var(--primary-font);
+
+    height: 45px;
+    border: none;
+    outline: none;
+    border-radius: 16px;
+    color: #fff;
+    padding-right: 46px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.loginwrapper .input-field i {
+    position: relative;
+    top: -31px;
+    right: 17px;
+    color: #fff;
+    width: fit-content;
+}
+
+.loginwrapper .input-field p {
+    color: var(--secondary-color);
+    font-size: 0.9rem;
+    margin: 0 5px 0 0;
+}
+
+.loginwrapper ::-webkit-input-placeholder {
+    color: #fff;
+}
+
+.loginwrapper .submit {
+    font-family: var(--primary-font);
+    border: none;
+    border-radius: 0 16px 16px 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+    height: 45px;
+    padding: 0 20px;
+    outline: none;
+    width: 100%;
+    background: var(--secondary-color);
+    color: #fff;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.loginwrapper .create-account {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px 0 0 16px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.loginwrapper .bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    margin: 10px 5px 0 0;
+}
+
+.loginwrapper label a {
+    color: #fff;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .loginwrapper .loginform {
+        width: 100%;
+        min-height: 100vh;
+        border-radius: unset;
+    }
+
+    .loginwrapper header {
+        margin-bottom: 20px;
+    }
+
+
+    .loginwrapper .loginform form {
+        gap: 10px;
+    }
+
+    .loginwrapper .submit {
+        padding: 0;
+    }
+
+    .loginwrapper .create-account {
+        padding: 13px 0;
+        text-align: center;
+        font-size: 0.8rem;
+
+    }
+}
