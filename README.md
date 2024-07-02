@@ -1,8 +1,15 @@
-# React + Vite
+# RTL Arabic Authentication Pages in React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project showcases Arabic RTL login, registration, and forgot password pages, built with React.js. The pages are fully responsive and feature a striking black design. Ideal for Arabic-speaking users, the project focuses on providing a seamless user experience. 
 
-Currently, two official plugins are available:
+Feel free to clone and explore the repository!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Image Alt Text](/assets/1.png)
+
+![Image Alt Text](/assets/2.png)
+
+![Image Alt Text](/assets/3.png)
+
+![Image Alt Text](/assets/4.png)
+
+![Image Alt Text](/assets/5.png)
